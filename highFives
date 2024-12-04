@@ -1,0 +1,28 @@
+var highFives = 0;
+highFives++; 
+highFives++; //інкрементування   
+highFives--; //декрементування
+console.log(highFives);
+
+var x = 10;
+x = x + 5;// += 
+console.log(x);
+
+var  score = 10;
+score += 7;
+
+score -= 3; // -=
+
+console.log(score);
+
+
+var balloons = 100;
+balloons *= 2;
+
+console.log(balloons);
+
+balloons /=4;
+console.log(balloons);
+
+
+
