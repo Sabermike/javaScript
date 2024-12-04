@@ -1,0 +1,22 @@
+//секудки в годині
+var secondsInAMinute = 60;
+var minutesInAnHour = 60;
+var secondsInAnHour = secondsInAMinute * minutesInAnHour;
+
+console.log(secondsInAnHour);
+
+//секунда у дні
+var hoursInDay = 24;
+var secondsInADay = secondsInAnHour * hoursInDay; 
+
+console.log(secondsInADay);
+
+//секунда у році
+var daysInAYear = 365;
+var secondsInAYear = secondsInADay * daysInAYear;
+console.log(secondsInAYear);
+
+//вік і секунда
+//var age = 29; Можна створити зміну зі своїм віком 
+var MyAge = 29 * secondsInAYear;
+console.log(MyAge);
