@@ -1,0 +1,32 @@
+
+console.log("Hello would!");
+
+myAwesomeString = "Something REALLY awesome!!!"; 
+
+console.log(myAwesomeString);
+
+var myThing = 5;
+myThing = "this is a stirng";
+console.log(myThing);
+
+var numberNine = 9;
+var stringNine = "9";
+
+x = numberNine + numberNine; // два числа тому результат буде 9 + 9 = 18 
+y = stringNine + stringNine; // два рядки 99
+
+console.log(x);
+console.log(y);
+
+z = numberNine +  stringNine; // 9 число + рядок 99 
+
+console.log(z);
+
+
+var greeting = "Hello"; // додали до рядка пробіл тому він пишеться окремо;
+gap = " " // окрему функцію з пробілом
+var myName = "Nick";
+
+connection = greeting + gap + myName; 
+
+console.log(connection);
