@@ -1,0 +1,27 @@
+var x = 10;
+x = x + 5;
+
+console.log(x);
+
+var score = 10;
+score += 5; // так само як додати x = x + 5;
+
+console.log(score);
+
+score -= 3; // тут вмкористовуємо функцію score виходить 15 - 3 = 12 
+
+console.log(score);
+
+var balloon = 100;
+balloon *= 2;
+
+console.log(balloon);
+
+var balloons = 100;
+balloons /=4;
+
+console.log(balloons);
+
+points = balloon + balloons * score / 2; // 350 бо спочатку *, / потім + 
+
+console.log(points);
