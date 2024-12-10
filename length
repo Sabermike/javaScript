@@ -1,0 +1,39 @@
+
+var a = "SupercaliFragilisticexpialidocius".length;
+
+console.log(a);
+
+var java = "java";
+
+u = java.length; // length - вираховувавати кілікість яка встановлена у значенні 
+
+console.log(u);
+
+var script = "Script";
+y = script.length;
+console.log(y);
+
+var javascript = java + script;
+e = javascript.length;
+console.log(e);
+
+
+var myName = "Nick"; // виводемо кількість бук та слів "Nick" 
+
+
+console.log(myName[0]);
+console.log(myName[1]);
+console.log(myName[2]);
+console.log(myName[3]);
+
+var codeWord1 = "are";
+var codeWord2 = "tubas";
+var codeWord3 = "unsafe";
+var codeWord4 = "!?"
+
+codeWord = codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1];
+// результат буде "run!" 
+
+console.log(codeWord);
+
+
