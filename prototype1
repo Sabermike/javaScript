@@ -1,0 +1,36 @@
+var greeting = "Hello ";
+var myName = "Misha";
+together = greeting + myName; 
+console.log(together);
+
+start = "Supermassive black hole".length; // Рахує і пробіли, length - дізнаємось довжина рядку 
+console.log(start);
+
+
+var  codeWord1 = "are";
+var  codeWord2 = "tubas";
+var  codeWord3 = "unsafe";
+var  codeWord4 = "?!";
+
+codeWord = codeWord1[1] + codeWord2[1] + codeWord3[1] + codeWord4[1]; // тут ми за допомогою масиву дізнаємось слово "run" видобуваємо з рядка  
+
+console.log(codeWord);
+
+var longString = "My long string is long"; 
+long1 = longString.slice(3, 14); // Тут ми відрізаємо рядок за допомогою оператора slice
+console.log(long1); //Тут нам виведе long string
+
+long2 = longString.slice(8); 
+console.log(long2);
+
+////// prototype1 
+
+var string = "hELlo THERE, hOW ARE yOu doINg?".toUpperCase();  
+var string2 = string[0];
+console.log(string2);
+var string3 = string.toLowerCase();
+console.log(string3);
+var string4 = string3.slice(1);
+console.log(string4);
+var string5 = string2 + string4
+console.log(string5);
