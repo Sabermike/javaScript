@@ -1,0 +1,37 @@
+//prototype1
+var string = "hELlo THERE, hOW ARE yOu doINg?".toUpperCase();
+var string2 = string[0];
+//console.log(string2);
+var string3 = string.toLowerCase();
+//console.log(string3);
+var string4 = string3.slice(1);
+//console.log(string4);
+var string5 = string2 + string4
+console.log(string5);
+
+//prototype2
+var type1 = "hELlo THERE, hOW ARE yOu doINg?".toUpperCase();
+
+var type2 = type1[0].toUpperCase() + type1.slice(1).toLowerCase();
+console.log(type2);
+
+
+//length; -дізнатись довжину рядку
+
+var javascriptIsCool = "javascriptIsCool";
+var javascrip1 = javascriptIsCool.slice(0,10).toUpperCase(); // JAVASCRIPT
+var javascrip2 = javascriptIsCool.slice(10,12).toLowerCase();// is
+var javascrip3 = javascriptIsCool.slice(12,16).toUpperCase();// COOL
+
+
+javascptWord1 =javascrip1 + javascrip2 + javascrip3;// JAVASCRIPTisCOOL
+
+console.log(javascptWord1);
+
+var javascrip4 = javascrip1[0].toLowerCase();// j
+var javascrip5 = javascrip1.slice(1);//AVASCRIPT
+
+
+javascptWord2 =javascrip4 + javascrip5 + javascrip2 + javascrip3; 
+
+console.log(javascptWord2); // jAVASCRIPTisCOOL
