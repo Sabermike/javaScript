@@ -1,0 +1,45 @@
+var hadShower = true;
+var hasBackpak = false;
+shower = hadShower && hasBackpak; // Ампесанд перевіряє чи обидва з них правельні
+console.log(shower);
+
+var hasApple = true;
+var hasOrange = false;
+juice = hasApple || hasOrange; // або-або чи одне з них true
+console.log(juice);
+
+var isWeekend = true;
+var needToShowerToday = !isWeekend; // зробити true з false 
+console.log(needToShowerToday);
+
+//version 2 
+var needToShowerToday1 = true;
+console.log(!needToShowerToday1);
+
+var isWeekend2 = false;
+var hadShower2 = true;
+var hasApple2 = false;
+var hasOrange2 = true;
+var shouldGoToSchool = !isWeekend2 && !hadShower2 && (hasApple2 || hasOrange2);
+console.log(shouldGoToSchool); // true 
+
+var height = 65;
+var heightRestrictin = 60;
+height1 = height > heightRestrictin;
+console.log(height1);
+
+var height1 = 60;
+var heightRestricton1 = 60;
+height2 = height1 >= heightRestricton1; // більше або дорівнює true 
+console.log(height2); 
+
+var height2 = 60;
+var heigtRestriction2 = 48;
+height3 = height2 < heigtRestriction2; 
+console.log(height3);
+
+var height3 = 48;
+var heigtRestriction3 = 48;
+height4 = height3 >= heigtRestriction3; 
+console.log(height4);
+
