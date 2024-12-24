@@ -1,0 +1,64 @@
+var mySecretNumbear = 5;
+var chicoGuess = 3;
+numbear1 = mySecretNumbear === chicoGuess; // цілком рівним до === 
+console.log(numbear1);
+
+var harpoGuess = 7;
+numbear2 = mySecretNumbear === harpoGuess;
+console.log(numbear2);
+
+var grouchoGuess = 5;
+numbear3 = mySecretNumbear === grouchoGuess;
+console.log(numbear3);
+
+// подвійник знак рівності приблизно рівним == 
+
+
+var stringNumbear = "5";
+var actualNumber = 5;
+numbear4 = stringNumbear === actualNumber;
+numbear5 = stringNumbear == actualNumber;
+console.log(numbear4);
+console.log(numbear5);
+
+
+var numb1 = 0 == false; // 0 а true переводить 1 якщо false 0
+console.log(numb1);
+var numb2 = "false" == false;
+console.log(numb2);
+
+
+var age1 = 12;
+var accompanied1 = true;
+var age2 = 13;
+var accompanied2 = false;
+var age3 = 9;
+var accompanied3 = true;
+
+pG1 = age1 > age2;
+pG2 = age1 > age3;
+
+console.log(pG1);
+console.log(pG2);
+
+var myvariable; 
+console.log(myvariable); // коли бракує значення для чогось undefined
+myvariable = null; // це пусте значення
+console.log(myvariable);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
