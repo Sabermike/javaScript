@@ -1,0 +1,19 @@
+
+numb1 = "cHristMaS iS coMing in 2024"
+numb2 = numb1[0].toUpperCase()+numb1.slice(1).toLowerCase();
+console.log(numb2);
+
+
+ver1 = "chill"
+ver2 = "hall"
+ver3 = "room"
+ver4 = "is"
+ver5 = "ss"
+ver6 = "too"
+ver7 = "moon"
+ver8 = "any"
+ver9 = "see"
+
+Christmas = ver1[0].toUpperCase() + ver2[0] + ver3[0] + ver4[0] + ver5[0] + ver6[0] + ver7[0] + ver8[0] + ver9[0];
+
+console.log(Christmas + " 2024");
