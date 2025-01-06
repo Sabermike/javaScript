@@ -1,0 +1,45 @@
+
+var dinosaurs = ["T-Rex", "Velociraptor", "Stegosaurus", "Triceratops", "Brachiosaurus", "Triceratops", "Brachiosaurus", "Pteranodon", "Apatosaurus", "Diplodocus", "Compsognathus"];
+
+root1 = dinosaurs[0] + " and " + dinosaurs[3]; 
+root2 = dinosaurs[0] + " best dinosaurs at all time!"
+console.log(root1);
+console.log(root2);
+
+//dinosaurs[0] = "Typhon?" замінив перше значення масиву замість "T-Rex" став "Typhon?"
+//console.log(dinosaurs);
+
+var dinosaurs1 = []; // як можна ще вікрити масив іншим способом 
+dinosaurs1[0] = "T-Rex";
+dinosaurs1[1] = "Velociraptor";
+dinosaurs1[2] = "Stegosaurus";
+dinosaurs1[3] = "Triceratops";
+dinosaurs1[4] = "Brachiosaurus";
+dinosaurs1[5] = "Triceratops";
+dinosaurs1[6] = "Brachiosaurus";
+dinosaurs1[7] = "Pteranodon";
+dinosaurs1[8] = "Apatosaurus";
+dinosaurs1[9] = "Diplodocus"
+dinosaurs1[10]= "Compsognathus"
+
+/*
+dinosaurs1[33] = "Philosoraptor"; // елементи між 10 та 33 будуть мати значення undefined <22 empty items>,
+*/
+console.log(dinosaurs1);
+
+
+var dinosaursAndNumbers = [3, "dinosaurs", ["triceratops", "stegosaurus", 3627.5], 10];
+console.log(dinosaursAndNumbers[0]);
+console.log(dinosaursAndNumbers[2]); // [ 'triceratops', 'stegosaurus', 3627.5 ]
+console.log(dinosaursAndNumbers[2][0]); //triceratops
+console.log(dinosaursAndNumbers[2][1]); // stegosaurus
+console.log(dinosaursAndNumbers[2][2]); // 3627.5
+console.log(dinosaursAndNumbers[3]);
+
+
+
+
+
+
+
+
