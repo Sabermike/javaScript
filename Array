@@ -1,0 +1,29 @@
+var animals = ["Polar Bear", "Monkey", "Cat", "Dog", "Llama"];	
+var lastAnimal = animals.pop(); // Llama	
+animals.pop(); // Dog	
+animals.unshift(lastAnimal);	
+var firstAnimals = animals.shift(); // delete Llama	
+	
+	
+console.log(animals);	
+console.log(lastAnimal);	
+console.log(firstAnimals);	
+	
+/*	
+.push() - додати елемент масиву	
+.pop() - прибрати останій елемент масиву	
+.unshift() - додати значення елементу масиву на початку	
+.shift() - видалити та повернути перший елемент масиву	
+.concat() - обєднати масиви разом	
+*/	
+	
+	
+var furryAnimals = ["Alpaca", "Ring-tailed Lemur", "Yeti"];	
+var scalyAnimals = ["Boa Constrictor Snake", "Godzilla" ];	
+var featheredAnimals = ["Macaw", "Dodo"];	
+var furryAndScalyAnimals = furryAnimals.concat(scalyAnimals,featheredAnimals);	
+	
+console.log(furryAndScalyAnimals);	
+console.log(furryAnimals);	
+console.log(scalyAnimals);	
+console.log(featheredAnimals);
