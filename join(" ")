@@ -1,0 +1,37 @@
+/*	
+.push() - додати елемент масиву	
+.pop() - прибрати останій елемент масиву	
+.unshift() - додати значення елементу масиву на початку	
+.shift() - видалити та повернути перший елемент масиву	
+.concat() - обєднати масиви разом	
+.indexOf() - знаходимо елемент масиву 
+.join(" ") - перетворюємо масив у рядок 
+*/	
+	
+var colors = ["red", "green", "blue","red"];
+index1 = colors.indexOf("blue");
+index2 = colors.indexOf("green");
+index4 = colors.indexOf("red");
+
+colors.push("black");
+
+index3 = colors.indexOf("black");
+
+console.log(index1);
+console.log(index2);
+console.log(index3);
+console.log(index4);
+console.log(colors);
+
+boringAnimals = ["Animals", "Cat", "flish", "Lizard"];
+animals = boringAnimals.join("--"); // перетворюємо масив у рядок та змінюємо його роздільний знак у лапках 
+console.log(animals);
+console.log(animals.length);
+
+var myNames = ["Nicholas", "Andrew", "Maxwell", "Morgan"];
+name = myNames.join(" ");
+console.log(name);
+
+var ages =[11, 14, 79];
+ages1 = ages.join(" ");
+console.log(ages1);
