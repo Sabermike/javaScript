@@ -1,0 +1,20 @@
+/*
+var select1 = Math.random();	
+var select2 = Math.random() * 10;
+
+
+var select3 = Math.floor(3.777);
+var select4 = Math.floor(Math.random() * 4);
+
+
+
+console.log(select1); 
+console.log(select2); 
+console.log(select3); 
+console.log(select4); 
+*/
+
+var randomWords = ["Explosion" , "Cave", "Princess", "Pen"];
+var randomIndex = Math.floor(Math.random() * 4);
+var random = randomWords[randomIndex];
+console.log(random); 
