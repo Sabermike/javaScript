@@ -1,0 +1,29 @@
+var mat1 = Math.random() * 10;
+var mat2 = Math.floor(Math.random() * 9); // значення до 1 до 8 та заокруглує його до цілого числа
+
+console.log(mat1);
+console.log(mat2);
+
+
+
+var randomWords = ["Explosion" , "Cave" , "Princess", "Pen"];
+/*var randomIndex = Math.floor(Math.random() * 4);
+randomWords[Math.floor(Math.random()*4)];
+index = randomWords[randomIndex];
+
+console.log(index);
+*/
+
+random = randomWords[Math.floor(Math.random()*4)]; // виберає одне значення з масиву
+console.log(random);
+
+var phrases = [
+That sounds good,
+Yes, you should definitely do that,
+Im not sure that a great idea,
+Maybe not taday,
+Computer says no.
+];
+
+phrases1 = phrases[Math.floor(Math.random() *5)]; // виберає одну з 5 фраз.
+console.log(phrases1);
