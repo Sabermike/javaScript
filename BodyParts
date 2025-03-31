@@ -1,0 +1,28 @@
+var randomBodyParts = ["Face", "Nose", "Hair"];
+var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
+var randomAnimal = ["Rat", "Bat", "Mouse", "Coyote", "Hedgehog"]
+
+var randomBodyPart = randomBodyParts[Math.floor(Math.random() *3)];
+var randomAdjective = randomAdjectives[Math.floor(Math.random() *3)];
+var randomWord = randomWords[Math.floor(Math.random() * randomWords.length)];
+var randomAnimalBodyPart = randomAnimal[Math.floor(Math.random() * randomWords.length)];
+
+//var randomInsult = "Yor " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord + "!!!";
+
+var randomInsult1 = ["Your", randomBodyPart, "is", "like", "a", randomAdjective, randomWord + "!!!"].join(" "); 
+
+var randomInsult2 = ["Your", randomBodyPart, "is", "more", randomAdjective, "than", "a", randomAnimalBodyPart + "!!!"].join(" "); 
+
+console.log(randomInsult1);
+console.log(randomInsult2);
+
+/////////////////////////////////////////////////////////////
+
+var m1 = [3,2,1];
+var m2 = m1[Math.floor(Math.random() *3)];
+var m3 = m1[Math.floor(Math.random() *3)];
+var m4 = m1[Math.floor(Math.random() *3)];
+
+var m3 = [m2, "is", "bigger", "than", m3, "is", "begger", "than", m4].join(" ");
+console.log(m3);
