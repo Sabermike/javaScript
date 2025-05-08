@@ -1,0 +1,106 @@
+/*
+
+{ "key1" : 99 } - синтаксис створенню обєкту.
+var object = {}; - порожній обєкт.
+Object.keys(); - перелік усіх ключів обєкту.
+Object.values(); - показує значення(параметри) ключів, обєкту.
+Object.entries(); - виводить усі значення обєкту.
+
+
+*/
+
+
+var cat = {
+legs: 3,
+name:"Harmony",
+color: "Tortoiseshell"
+
+};
+
+console.log(cat);
+
+
+var cat1 =[]; // стовення через масив та наповнення обєкту 
+
+cat1.push(3);
+cat1.push("Harmony");
+cat1.push("Tortoiseshell");
+
+console.log(cat1);
+
+
+var cat3 = {
+legs: 5,
+name: "Berty Cypper",
+body: "Сircular"
+
+
+};
+
+console.log(Object.keys(cat3));
+
+
+var dog = { name: "Pancake", age: 6, color: "white", bark: "Yip yap yip!"};
+var cat = { name: "Harmony", age: 8, color: "tortoisesshell" };
+
+
+
+console.log(Object.values(dog));
+console.log(Object.keys(dog));
+console.log(Object.entries(dog));
+
+// Додаємо обєкти
+
+/*
+Version 0.1
+
+Версія без крапки обєкта
+var cat = {};
+
+cat["legs"] = 3;
+cat["name"] = "Harmony";
+cat["color"] = "Tortoisesshell";
+
+console.log(cat);
+*/
+
+
+//Version 0.2 З крапкамми
+
+var cat = {};
+
+cat.legs = 3;
+cat.name = "Harmony";
+cat.color = "Tortoiseshell";
+
+console.log(cat);
+
+var dogs = {
+
+name: "Pancake",
+legs: 4,
+isAwesome: true
+
+};
+dogs.isBrown;
+
+console.log(dogs);
+
+
+var dinosaurs = [ // за допомогою масиву виводимо стопчики з обєктами 
+{ name: "Tyrannosaurus Rex", period: "Later Cretaceous" },
+{ name: "Stegosaurus", period: "Late Jurassic" },
+{ name: "Plateosaurus", period: "Triassic" }
+];
+
+//console.log(dinosaurs);
+console.log(dinosaurs[0]);
+console.log(dinosaurs[1]);
+console.log(dinosaurs[2]);
+console.log(dinosaurs[3]);// undefined
+console.log(dinosaurs[0]["name"]);//Tyrannosaurus Rex
+console.log(dinosaurs[2]["period"]);//Triassic
+
+
+
+
